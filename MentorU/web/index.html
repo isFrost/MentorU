@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="site.css" rel="stylesheet" type="text/css"/>    
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Home</title>
+</head>
+
+<body> 
+
+    <form action="ValidateAdmin" method="post">
+    <div id="logo">
+        Mentor
+    </div>
+    <div id="main-menu">
+        <a href="studlogin.html" title="student">Студент</a>  | 
+        <a href="tutlogin.html" title="faculty">Преподаватель</a>  | 
+    </div>
+    
+    <div id="admin-login"><br/>
+        Администратор
+	<p><input type="password" value="" name="password" ></p>
+	<p><input type="submit" value="Вход" onclick="ValidateAdmin"></p>
+    </div>
+    </form>        
+</body>
+</html>

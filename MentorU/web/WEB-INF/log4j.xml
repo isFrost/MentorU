@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+    
+    <appender name="mentorLogAppender" class="org.apache.log4j.ConsoleAppender">
+        <param name="File" value="E:\by\lifedu\smolko\java\MentorApp\MentorU\logs\mentorLog.xml"/>
+        <param name="MaxFileSize" value="4MB"/>
+        <param name="Target" value="System.out"/>
+            <layout class="org.apache.log4j.xmlXMLLayout">
+                <param name="ConversionPattern" value="%d %5p %c:%l = %m%n"/>
+            </layout>
+    </appender>
+<!-- Root logger -->
+<root><priority value ="debug" />
+<appender-ref ref="mentorLogAppender"/>
+</root>
+</log4j:configuration>

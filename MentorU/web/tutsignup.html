@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="site.css" rel="stylesheet" type="text/css"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Регистрация</title>
+</head>
+<body>
+    <div id="logo">
+        Mentor
+    </div>
+    <div id="main-menu">
+        <a href="studlogin.html" title="Студент">Студент</a>  | 
+        <a href="tutorlogin.html" title="Преподаватель">Преподаватель</a>  | 
+    </div>
+
+<form action="ValidateTutor" method="post" >
+
+    <p><a href="index.html">Вернуться на стартовую страницу</a></p>
+
+<div id="admin-login">
+    <br/>
+    <table>    
+	<tr>  
+            <td>ФИO</td> 
+            <td><input type="text" name="name" value=""></td>
+        </tr>	
+        <tr>  
+            <td>Логин</td>
+            <td><input type="text" name="username" value="" > </td>	
+	<tr>   
+            <td>Пароль</td> 
+            <td><input type="password" name="pass" value=""></td>  
+        </tr>	
+	<tr>  
+            <td>Подтвердить пароль</td> 
+            <td><input type="password" name="pass1" value=""></td>
+        </tr>
+	<tr>  
+            <td>e-mail</td> 
+            <td><input type="text" name="mail" value=""></td>
+        </tr>	
+	<tr>
+            <td>Кафедра</td>
+            <td>
+                <input type="text" name="department" value="">
+            </td>
+        </tr>
+	
+        <tr>
+            <td colspan="2"><input type="submit" value="Регистрация" onclick="ValidateTutor" ></td>
+        </tr>
+    </table>
+</div>
+    
+</form>
+</body>
+</html>
+

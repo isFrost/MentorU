@@ -1,0 +1,147 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 30, 2015, 8:06:36 AM
+    Author     : isend_000
+*/
+
+body{
+    background-color: white;
+}
+#logo{
+    text-align: center;
+    font-family: arial;
+    font-size: xx-large;
+    color: white;
+    background-color: black;
+    border-radius: 7px;
+}
+#main-menu{
+    text-align: center;
+    border-radius: 7px;
+}
+#main-menu a{
+    color: black;
+}
+#main-menu a:hover{
+    color: #ff6600;
+}
+#admin-login{
+    text-align: center;
+    width: 30%;
+    position: absolute;
+    left: 35%;
+    margin-top: 2px;
+    border-radius: 7px;
+    background: linear-gradient(#B0B0B0, #E6E6E6,#E8E8E8);
+}
+#admin-login input{
+    
+}
+#user-login{
+    margin-top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:  "verdana,arial";
+    width: 300px;
+    height: 400px;
+    border-radius: 7px;
+    background: linear-gradient(#B0B0B0,#E6E6E6,#E8E8E8);
+}
+.login-box{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+#stud-menu{
+    width: 100%;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: #ff6600;
+}
+.panel{
+    
+    margin-top: 2px;
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    background: linear-gradient(#B0B0B0,#E6E6E6,#E8E8E8);
+}
+#menu{
+    width: 100%;
+}
+#quotation{
+    text-align: right;
+    float: right;
+}
+em{
+    font: 20px;    
+}
+video{
+    float: right;
+}
+.profile-div{
+    margin-top: 2px;
+    width: 29.5%;
+    height: 300px;
+    float: left;
+    border-radius: 7px;
+    background: linear-gradient(#B0B0B0, #E6E6E6,#E8E8E8);
+    text-align: center;
+    display: inline-block;
+    height: 100%;
+}
+img{
+    margin-left: 25%;
+}
+.feed{
+    margin-top: 2px;
+    margin: 2px;
+    width: 70%;
+    float: left;
+    border-radius: 7px;
+    background: linear-gradient(#B0B0B0,#E6E6E6,#E8E8E8);
+    text-align: center;
+    display: inline-block;    
+}
+h3{
+    text-align: center;
+}
+#q{
+    position: relative;
+    float: left;
+    display: inline-block;
+}
+.message{
+    border-top-style: solid;
+    border-color: black;
+    background: linear-gradient(#E6E6E6,#E8E8E8);  
+    border-radius: 7px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+input{
+    border-radius: 5px;
+}
+select{
+    border-radius: 5px;
+}
+#quest{
+    width: 30%;
+}
+.about{
+    margin-top: 2px;
+    margin: 2px;
+    width: 100%;
+    float: left;
+    border-radius: 7px;
+    background: linear-gradient(#B0B0B0,#E6E6E6,#E8E8E8);
+    text-align: center;
+    display: inline-block;    
+}
